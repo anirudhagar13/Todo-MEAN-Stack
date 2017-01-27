@@ -23,11 +23,6 @@ app.use(method());
 // routes ===============================================
 require('./app/routes.js')(app);
 
-//App Model configuration
-var Todo = mongo.model('Todo', {
-        text : String
-    });
-
 // listen (start app with node server.js) ===============
 app.listen(port);
 console.log("App listening on port : "+port);
