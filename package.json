@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "make and delete todo tasks over application based on MEAN Stack",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "method-override": "^2.1.3",
+    "mongodb": "^2.2.22",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "anirudhagar13@github.com"
+  },
+  "author": "Anirudh Agarwal",
+  "license": "ISC"
+}
